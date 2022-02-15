@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="TR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ödev js</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <!--hamburger menü gelecek buraya-->
+  <input type="checkbox" id="menu-toggle" />
+
+  <div class="container mt-2 d-flex">
+    <div class="header">
+      <label class="hamburger-menu" for="menu-toggle">
+        <span></span>
+      </label>
+      <a href="#" class="logo"> </a>
+      <div class="actions"></div>
+      <label for="menu-toggle" class="backdrop"></label>
+    </div>
+
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#">Anasayfa</a>
+        </li>
+        <li>
+          <a href="#">Abonelik</a>
+        </li>
+        <li>
+          <a href="#">YouTube Müzik</a>
+        </li>
+        <li>
+          <a href="#">Kütüphane</a>
+        </li>
+        <li>
+          <a href="#">Geçmiş</a>
+        </li>
+        <li>
+          <a href="#">İndirilenler</a>
+        </li>
+        <li>
+          <a href="#">Daha Fazlası</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--youtube icon search kısmı-->
+
+    <div class="row">
+      <div class="col">
+        <img src="img/youtubeico.ico" alt="" class="ico" />
+      </div>
+    </div>
+    <span class="span">
+      <b>YouTube</b>
+      <sup>TR</sup>
+    </span>
+    <div class="search">
+      <form action="">
+        <input type="text" />
+        <button class="buton">
+          <i>Search</i>
+        </button>
+
+        <button class="oturum btn-outline-primary">
+          <img src="img/1.png" alt="" class="icon" />
+          Oturum Aç
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container d-flex mt-5 videoSection">
+    <div class="col ">
+      <video id="video1" width="650" height="390" controls>
+        <source src="video/sirinler kısa bölüm.mp4" type="video/mp4" />
+      </video>
+      <br><br>
+      <b>Şirin Cenneti • Şirinler</b>
+      <br>
+      <br>
+      <div>
+        <p class="footer"> 2.265.590 Görüntüleme
+          <i class="far fa-thumbs-up" id="iconSection"></i> 98 B
+          <i class="far fa-thumbs-down" id="iconSection1"></i>2 B
+          <i class="fas fa-share" id="shareSection"></i>PAYLAŞ
+          <i class="fas fa-long-arrow-alt-down" id="downloadSection"></i> KAYDET
+          <i class="fas fa-ellipsis-h" id="points"></i>
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="wrap imgSection">
+      <img class="resim" src="img/şirin1.PNG" alt="">
+      <img class="resim" src="img/şirin2.PNG" alt="">
+      <img class="resim" src="img/şirin3.PNG" alt="">
+      <img class="resim" src="img/şirin4.PNG" alt="">
+      <img class="resim" src="img/şirin5.PNG" alt="">
+    </div>
+  </div>
+  <div class="clear"></div>
+  <!-- <div class="container d-flex">
+    <div class="acıklama">
+      <p>Şirinler</p>
+    </div>
+    <div>
+      <i class="far fa-thumbs-up"></i>98
+    </div>
+
+  </div> -->
+
+
+  </div>
+
+
+
+</body>
+
+</html>
